@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>002 - Verify Login With Registered Account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>44311b98-a32a-45e4-b962-fdc87ff1cd2b</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>a16bec99-d631-475d-991d-ec1afdc6d298</id>
+      <iterationEntity>
+         <iterationType>RANGE</iterationType>
+         <value>1-1</value>
+      </iterationEntity>
+      <testDataId>Data Files/AOS0001/AOS0001-001</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>a16bec99-d631-475d-991d-ec1afdc6d298</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>USERNAME</value>
+      <variableId>905e050c-8bfe-4f53-9a82-8371a6b9c37e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>a16bec99-d631-475d-991d-ec1afdc6d298</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>PASSWORD</value>
+      <variableId>bea69f85-0a18-44d7-8f27-3ecd68475166</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>VARIABLE FOR USERNAME FIELD</description>
+      <id>905e050c-8bfe-4f53-9a82-8371a6b9c37e</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>VARIABLE FOR PASSWORD FIELD</description>
+      <id>bea69f85-0a18-44d7-8f27-3ecd68475166</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

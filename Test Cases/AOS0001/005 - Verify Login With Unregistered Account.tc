@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>005 - Verify Login With Unregistered Account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3710ce09-3c8e-4e9b-a468-e2173f8b7522</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>995b142e-0fb0-42b3-b5fb-ab3c1a343d4c</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/AOS0001/AOS0001-005</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>995b142e-0fb0-42b3-b5fb-ab3c1a343d4c</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>USERNAME</value>
+      <variableId>80e5e9eb-aa47-459d-ade6-1a8355fc108e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>995b142e-0fb0-42b3-b5fb-ab3c1a343d4c</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>PASSWORD</value>
+      <variableId>7b705de5-3a14-4aec-baea-bcaf8e81dd17</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>VARIABLE FOR USERNAME FIELD</description>
+      <id>80e5e9eb-aa47-459d-ade6-1a8355fc108e</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>VARIABLE FOR PASSWORD FIELD</description>
+      <id>7b705de5-3a14-4aec-baea-bcaf8e81dd17</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
