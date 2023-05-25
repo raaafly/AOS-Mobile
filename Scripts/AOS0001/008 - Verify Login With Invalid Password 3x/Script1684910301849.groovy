@@ -17,3 +17,37 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.startApplication('C:\\Users\\1277\\Documents\\advantage-demo-v3.2.apk', true)
+
+'TAP SIDEBAR ICON'
+Mobile.tap(findTestObject('Object Repository/LANDING_SCREEN/BUTTON_ICON_SIDEBAR'), 30, FailureHandling.STOP_ON_FAILURE)
+
+'TAP MENU LOGIN'
+Mobile.tap(findTestObject('Object Repository/LANDING_SCREEN/SIDEBAR/MENU_LOGIN'), 30, FailureHandling.STOP_ON_FAILURE)
+
+int i = 0
+while (i <= 3) {
+	Mobile.delay(2)
+	
+	'TAP FIELD USERNAME'
+	Mobile.tap(findTestObject('Object Repository/LOGIN_SCREEN/FIELD_USERNAME'), 30, FailureHandling.STOP_ON_FAILURE)
+	
+	'INPUT FIELD USERNAME'
+	Mobile.setText(findTestObject('Object Repository/LOGIN_SCREEN/FIELD_USERNAME'), username, 30, FailureHandling.STOP_ON_FAILURE)
+	
+	'TAP FIELD PASSWORD'
+	Mobile.tap(findTestObject('Object Repository/LOGIN_SCREEN/FIELD_PASSWORD'), 30, FailureHandling.STOP_ON_FAILURE)
+	
+	'INPUT FIELD PASSWORD'
+	Mobile.setText(findTestObject('Object Repository/LOGIN_SCREEN/FIELD_PASSWORD'), password, 30, FailureHandling.STOP_ON_FAILURE)
+	
+	'TAP BUTTON LOGIN'
+	Mobile.tap(findTestObject('Object Repository/LOGIN_SCREEN/BUTTON_LOGIN'), 30, FailureHandling.STOP_ON_FAILURE)
+	
+	i++
+}
+
+'ACTUAL RESULT'
+Mobile.verifyElementVisible(findTestObject('Object Repository/LOGIN_SCREEN/TEXT_TEMPORARY_BLOCKED'), 30, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.closeApplication()

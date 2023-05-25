@@ -26,16 +26,16 @@ Mobile.tap(findTestObject('Object Repository/LANDING_SCREEN/BUTTON_ICON_SIDEBAR'
 Mobile.tap(findTestObject('Object Repository/LANDING_SCREEN/SIDEBAR/MENU_LOGIN'), 30, FailureHandling.STOP_ON_FAILURE)
 
 'TAP FIELD USERNAME'
-Mobile.tap(findTestObject('Object Repository/LOGIN_SCREEN/EDITTEXT_USERNAME'), 30, FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Object Repository/LOGIN_SCREEN/FIELD_USERNAME'), 30, FailureHandling.STOP_ON_FAILURE)
 
-'INPUT FIELD PASSWORD'
-Mobile.setText(findTestObject('Object Repository/LOGIN_SCREEN/EDITTEXT_USERNAME'), username, 30, FailureHandling.STOP_ON_FAILURE)
+'INPUT FIELD USERNAME'
+Mobile.setText(findTestObject('Object Repository/LOGIN_SCREEN/FIELD_USERNAME'), username, 30, FailureHandling.STOP_ON_FAILURE)
 
 'TAP FIELD PASSWORD'
-Mobile.tap(findTestObject('Object Repository/LOGIN_SCREEN/EDITTEXT_PASSWORD'), 30, FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Object Repository/LOGIN_SCREEN/FIELD_PASSWORD'), 30, FailureHandling.STOP_ON_FAILURE)
 
 'INPUT FIELD PASSWORD'
-Mobile.setText(findTestObject('Object Repository/LOGIN_SCREEN/EDITTEXT_PASSWORD'), password, 30, FailureHandling.STOP_ON_FAILURE)
+Mobile.setText(findTestObject('Object Repository/LOGIN_SCREEN/FIELD_PASSWORD'), password, 30, FailureHandling.STOP_ON_FAILURE)
 
 'TAP BUTTON LOGIN'
 Mobile.tap(findTestObject('Object Repository/LOGIN_SCREEN/BUTTON_LOGIN'), 30, FailureHandling.STOP_ON_FAILURE)
@@ -48,6 +48,6 @@ if (isElementExist) {
 
 'ACTUAL RESULT'
 Mobile.tap(findTestObject('Object Repository/LANDING_SCREEN/BUTTON_ICON_SIDEBAR'), 30, FailureHandling.STOP_ON_FAILURE)
-Mobile.verifyElementVisible(findTestObject('Object Repository/LANDING_SCREEN/SIDEBAR/TEXTVIEW_USERNAME_LOGGED_IN', [('isUsername'): username]), 30, FailureHandling.STOP_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('Object Repository/LANDING_SCREEN/SIDEBAR/TEXT_USERNAME_LOGGED_IN', [('isUsername'): username]), 30, FailureHandling.STOP_ON_FAILURE)
 
 //Mobile.closeApplication()

@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\1277\\Documents\\advantage-demo-v3.2.apk', true)
+//Mobile.startApplication('C:\\Users\\1277\\Documents\\advantage-demo-v3.2.apk', true)
 
 'TAP SIDEBAR ICON'
 Mobile.tap(findTestObject('Object Repository/LANDING_SCREEN/BUTTON_ICON_SIDEBAR'), 30, FailureHandling.STOP_ON_FAILURE)
@@ -26,15 +26,15 @@ Mobile.tap(findTestObject('Object Repository/LANDING_SCREEN/BUTTON_ICON_SIDEBAR'
 Mobile.tap(findTestObject('Object Repository/LANDING_SCREEN/SIDEBAR/MENU_LOGIN'), 30, FailureHandling.STOP_ON_FAILURE)
 
 'VERIFY TITLE SCREEN IS VISIBLE'
-Mobile.verifyElementVisible(findTestObject('Object Repository/LOGIN_SCREEN/TEXTVIEW_LOGIN_SCREEN_TITLE'), 30, FailureHandling.STOP_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('Object Repository/LOGIN_SCREEN/TEXT_LOGIN_SCREEN_TITLE'), 30, FailureHandling.STOP_ON_FAILURE)
 
 'VERIFY TITLE SCREEN IS MATCH'
-Mobile.verifyElementText(findTestObject('Object Repository/LOGIN_SCREEN/TEXTVIEW_LOGIN_SCREEN_TITLE'), "Login", FailureHandling.STOP_ON_FAILURE)
+Mobile.verifyElementText(findTestObject('Object Repository/LOGIN_SCREEN/TEXT_LOGIN_SCREEN_TITLE'), "Login", FailureHandling.STOP_ON_FAILURE)
 
 'VERIFY FIELD USERNAME IS VISIBLE'
-Mobile.verifyElementVisible(findTestObject('Object Repository/LOGIN_SCREEN/EDITTEXT_USERNAME'), 30, FailureHandling.STOP_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('Object Repository/LOGIN_SCREEN/FIELD_USERNAME'), 30, FailureHandling.STOP_ON_FAILURE)
 
 'VERIFY FIELD PASSWORD IS VISIBLE'
-Mobile.verifyElementVisible(findTestObject('Object Repository/LOGIN_SCREEN/EDITTEXT_PASSWORD'), 30, FailureHandling.STOP_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('Object Repository/LOGIN_SCREEN/FIELD_PASSWORD'), 30, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.closeApplication()
+//Mobile.closeApplication()

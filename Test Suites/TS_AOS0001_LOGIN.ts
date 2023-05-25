@@ -23,17 +23,26 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/AOS0001/002 - Verify Login With Registered Account</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>ac53f407-61c8-44cb-86cd-20cc48a26576</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/AOS0001/DATA_REGISTERED_ACCOUNT</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>ac53f407-61c8-44cb-86cd-20cc48a26576</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>USERNAME</value>
          <variableId>905e050c-8bfe-4f53-9a82-8371a6b9c37e</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>ac53f407-61c8-44cb-86cd-20cc48a26576</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PASSWORD</value>
          <variableId>bea69f85-0a18-44d7-8f27-3ecd68475166</variableId>
       </variableLink>
    </testCaseLink>
@@ -56,17 +65,26 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/AOS0001/005 - Verify Login With Unregistered Account</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>c3d46365-bf29-43ea-8a52-6000377557aa</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/AOS0001/DATA_UNREGISTERED_ACCOUNT</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>c3d46365-bf29-43ea-8a52-6000377557aa</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>USERNAME</value>
          <variableId>80e5e9eb-aa47-459d-ade6-1a8355fc108e</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>c3d46365-bf29-43ea-8a52-6000377557aa</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PASSWORD</value>
          <variableId>7b705de5-3a14-4aec-baea-bcaf8e81dd17</variableId>
       </variableLink>
    </testCaseLink>
@@ -74,18 +92,34 @@
       <guid>ee4c6c48-1d8e-43be-b274-4b5a77044f6b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
+      <iterationNameVariable>
+         <defaultValue>''</defaultValue>
+         <description>VARIABLE FOR USERNAME FIELD</description>
+         <id>3438e7c1-0208-4591-aeab-e266bae6f5ec</id>
+         <masked>false</masked>
+         <name>email</name>
+      </iterationNameVariable>
       <testCaseId>Test Cases/AOS0001/006 - Verify Login Fill In The Username Field With Registered Email</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>159cd877-68b5-4f72-b146-19728ddd9f85</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/AOS0001/DATA_REGISTERED_ACCOUNT</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>159cd877-68b5-4f72-b146-19728ddd9f85</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>EMAIL</value>
          <variableId>3438e7c1-0208-4591-aeab-e266bae6f5ec</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>159cd877-68b5-4f72-b146-19728ddd9f85</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PASSWORD</value>
          <variableId>1d00bc0b-5baa-4787-ab29-6c992ff0ac16</variableId>
       </variableLink>
    </testCaseLink>
@@ -94,11 +128,20 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/AOS0001/007 - Verify Login With Invalid Password 1x</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>0b32139d-bfe7-4243-87dd-12dd1c5a713e</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/AOS0001/DATA_REGISTERED_ACCOUNT</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>0b32139d-bfe7-4243-87dd-12dd1c5a713e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>USERNAME</value>
          <variableId>b5768b96-354b-48e8-abe3-ffea3cb01448</variableId>
       </variableLink>
       <variableLink>
@@ -113,11 +156,20 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/AOS0001/008 - Verify Login With Invalid Password 3x</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>add38d93-f0c6-44ac-a825-3992d0ad21da</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/AOS0001/DATA_REGISTERED_ACCOUNT</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>add38d93-f0c6-44ac-a825-3992d0ad21da</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>USERNAME</value>
          <variableId>4c8522cf-b34b-4ecc-b5da-372de362ebed</variableId>
       </variableLink>
       <variableLink>
@@ -131,14 +183,47 @@
       <guid>72355fe5-1181-437c-b208-285e9f7f942d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/AOS0001/009 - Verify Login Without Fill The Password Field</testCaseId>
+      <testCaseId>Test Cases/AOS0001/010 - Verify Login Without Fill The Password Field</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>1f99e0db-9a17-4353-b857-60d3b0ac2ff9</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/AOS0001/DATA_REGISTERED_ACCOUNT</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>1f99e0db-9a17-4353-b857-60d3b0ac2ff9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>USERNAME</value>
+         <variableId>1ea90146-16a1-444d-bb9b-b3e3799f9ee1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c7969ac2-4895-4a3d-baec-d2a5526439ea</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>0598252c-d5fb-43cf-8da2-9d38663e7b94</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/AOS0001/010 - Verify Login Without Fill The Username And Password Fields</testCaseId>
+      <testCaseId>Test Cases/AOS0001/011 - Verify Login Without Fill The Username And Password Fields</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ccc6869d-0647-4455-b95d-597bd3742e15</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9a3c25d0-7cb6-42bb-90fc-896f7d291108</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
