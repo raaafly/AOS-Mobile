@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>002 - Verify Create an Account Successfully</name>
+   <name>002 - Verify Create An Account Successfully</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>d0b15f39-559e-4bed-97e6-9d12d353f3fd</testCaseGuid>
