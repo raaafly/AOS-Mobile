@@ -25,16 +25,10 @@ Mobile.tap(findTestObject('Object Repository/LANDING_SCREEN/BUTTON_ICON_SIDEBAR'
 'TAP MENU LOGIN'
 Mobile.tap(findTestObject('Object Repository/LANDING_SCREEN/SIDEBAR/MENU_LOGIN'), 30, FailureHandling.STOP_ON_FAILURE)
 
-'VERIFY TITLE SCREEN IS VISIBLE'
-Mobile.verifyElementVisible(findTestObject('Object Repository/LOGIN_SCREEN/TEXT_LOGIN_SCREEN_TITLE'), 30, FailureHandling.STOP_ON_FAILURE)
+'TAP TEXT SIGN UP TODAY'
+Mobile.tap(findTestObject('Object Repository/LOGIN_SCREEN/TEXT_SIGN_UP_TODAY'), 30, FailureHandling.STOP_ON_FAILURE)
 
-'VERIFY TITLE SCREEN IS MATCH'
-Mobile.verifyElementText(findTestObject('Object Repository/LOGIN_SCREEN/TEXT_LOGIN_SCREEN_TITLE'), "Login", FailureHandling.STOP_ON_FAILURE)
-
-'VERIFY FIELD USERNAME IS VISIBLE'
-Mobile.verifyElementVisible(findTestObject('Object Repository/LOGIN_SCREEN/FIELD_USERNAME'), 30, FailureHandling.STOP_ON_FAILURE)
-
-'VERIFY FIELD PASSWORD IS VISIBLE'
-Mobile.verifyElementVisible(findTestObject('Object Repository/LOGIN_SCREEN/FIELD_PASSWORD'), 30, FailureHandling.STOP_ON_FAILURE)
+'ACTUAL RESULT'
+Mobile.verifyElementVisible(findTestObject('Object Repository/REGISTER_SCREEN/TEXT_CREATE_ACCOUTN_TITLE'), 0, FailureHandling.STOP_ON_FAILURE)
 
 //Mobile.closeApplication()

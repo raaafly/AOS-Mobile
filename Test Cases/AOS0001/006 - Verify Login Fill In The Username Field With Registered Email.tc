@@ -7,21 +7,21 @@
    <testCaseGuid>20de135a-fa7a-4fb9-bfb5-6893aea91531</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
-      <id>5c41d518-473d-4d75-a551-3672ded14323</id>
+      <id>7f8614b8-ea66-4217-a347-42395e1590b2</id>
       <iterationEntity>
          <iterationType>ALL</iterationType>
          <value></value>
       </iterationEntity>
-      <testDataId>Data Files/AOS0001/AOS0001-006</testDataId>
+      <testDataId>Data Files/AOS0001/DATA_REGISTERED_ACCOUNT</testDataId>
    </testDataLinks>
    <variableLinks>
-      <testDataLinkId>5c41d518-473d-4d75-a551-3672ded14323</testDataLinkId>
+      <testDataLinkId>7f8614b8-ea66-4217-a347-42395e1590b2</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>EMAIL</value>
       <variableId>3438e7c1-0208-4591-aeab-e266bae6f5ec</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>5c41d518-473d-4d75-a551-3672ded14323</testDataLinkId>
+      <testDataLinkId>7f8614b8-ea66-4217-a347-42395e1590b2</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>PASSWORD</value>
       <variableId>1d00bc0b-5baa-4787-ab29-6c992ff0ac16</variableId>

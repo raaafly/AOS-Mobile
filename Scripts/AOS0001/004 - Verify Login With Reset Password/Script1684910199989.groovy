@@ -31,7 +31,7 @@ Mobile.tap(findTestObject('Object Repository/LANDING_SCREEN/SIDEBAR/MENU_LOGIN')
  * Because This Feature Is Not Available Yet, It Will Always Return Fail
  */
 'ACTUAL RESULT'
-Mobile.tap(findTestObject('Object Repository/LOGIN_SCREEN/TEXTVIEW_FORGOT_YOUR_PASSWORD'), 30, FailureHandling.STOP_ON_FAILURE)
-Mobile.verifyElementNotVisible(findTestObject('Object Repository/LOGIN_SCREEN/TEXTVIEW_FORGOT_YOUR_PASSWORD'), 30, FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Object Repository/LOGIN_SCREEN/TEXT_FORGOT_YOUR_PASSWORD'), 30, FailureHandling.STOP_ON_FAILURE)
+Mobile.verifyElementNotVisible(findTestObject('Object Repository/LOGIN_SCREEN/TEXT_FORGOT_YOUR_PASSWORD'), 30, FailureHandling.STOP_ON_FAILURE)
 
 //Mobile.closeApplication()

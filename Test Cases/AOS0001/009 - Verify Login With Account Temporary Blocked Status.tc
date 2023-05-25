@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>007 - Verify Login With Invalid Password 1x</name>
+   <name>009 - Verify Login With Account Temporary Blocked Status</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>faaa3cde-0699-43bf-b621-4d5025eb47e9</testCaseGuid>
+   <testCaseGuid>f5bfaace-f163-4386-ac92-50672133ebf5</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
-      <id>1dd9fdfc-ac99-48f5-adaf-f7db57c2be80</id>
+      <id>9a9b8068-6fc3-4533-a59a-667d02827040</id>
       <iterationEntity>
-         <iterationType>ALL</iterationType>
-         <value></value>
+         <iterationType>RANGE</iterationType>
+         <value>2-2</value>
       </iterationEntity>
       <testDataId>Data Files/AOS0001/DATA_REGISTERED_ACCOUNT</testDataId>
    </testDataLinks>
    <variableLinks>
-      <testDataLinkId>1dd9fdfc-ac99-48f5-adaf-f7db57c2be80</testDataLinkId>
+      <testDataLinkId>9a9b8068-6fc3-4533-a59a-667d02827040</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>USERNAME</value>
-      <variableId>b5768b96-354b-48e8-abe3-ffea3cb01448</variableId>
+      <variableId>02b2e39b-2bdb-44ed-b783-f55e1456b2af</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>bf5db06b-04d5-4115-8f3f-9d660440452e</variableId>
+      <testDataLinkId>9a9b8068-6fc3-4533-a59a-667d02827040</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>PASSWORD</value>
+      <variableId>443da21a-3107-443a-9e75-c2f5a5e240a5</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description>VARIABLE FOR USERNAME FIELD</description>
-      <id>b5768b96-354b-48e8-abe3-ffea3cb01448</id>
+      <id>02b2e39b-2bdb-44ed-b783-f55e1456b2af</id>
       <masked>false</masked>
       <name>username</name>
    </variable>
    <variable>
-      <defaultValue>'wrongpassword123'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description>VARIABLE FOR PASSWORD FIELD</description>
-      <id>bf5db06b-04d5-4115-8f3f-9d660440452e</id>
+      <id>443da21a-3107-443a-9e75-c2f5a5e240a5</id>
       <masked>false</masked>
       <name>password</name>
    </variable>
