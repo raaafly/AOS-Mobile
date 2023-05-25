@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>009 - Verify Login With Account Temporary Blocked Status</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f5bfaace-f163-4386-ac92-50672133ebf5</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>9a9b8068-6fc3-4533-a59a-667d02827040</id>
+      <iterationEntity>
+         <iterationType>RANGE</iterationType>
+         <value>2-2</value>
+      </iterationEntity>
+      <testDataId>Data Files/AOS0001/DATA_REGISTERED_ACCOUNT</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>9a9b8068-6fc3-4533-a59a-667d02827040</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>USERNAME</value>
+      <variableId>02b2e39b-2bdb-44ed-b783-f55e1456b2af</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>9a9b8068-6fc3-4533-a59a-667d02827040</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>PASSWORD</value>
+      <variableId>443da21a-3107-443a-9e75-c2f5a5e240a5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>VARIABLE FOR USERNAME FIELD</description>
+      <id>02b2e39b-2bdb-44ed-b783-f55e1456b2af</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>VARIABLE FOR PASSWORD FIELD</description>
+      <id>443da21a-3107-443a-9e75-c2f5a5e240a5</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
