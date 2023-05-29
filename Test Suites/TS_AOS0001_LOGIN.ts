@@ -155,7 +155,7 @@
       <guid>3318199e-ff88-4ffa-8d9a-064eb0fa1b5a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/AOS0001/008 - Verify Login With Invalid Password 3x</testCaseId>
+      <testCaseId>Test Cases/AOS0001/008 - Verify Login With Invalid Password 4x</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>add38d93-f0c6-44ac-a825-3992d0ad21da</id>

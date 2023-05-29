@@ -12,7 +12,7 @@
          <iterationType>ALL</iterationType>
          <value></value>
       </iterationEntity>
-      <testDataId>Data Files/AOS0001/DATA_REGISTERED_ACCOUNT</testDataId>
+      <testDataId>Data Files/DATA_REGISTERED_ACCOUNT</testDataId>
    </testDataLinks>
    <variableLinks>
       <testDataLinkId>7f8614b8-ea66-4217-a347-42395e1590b2</testDataLinkId>
