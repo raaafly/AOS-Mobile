@@ -39,7 +39,6 @@ import com.kms.katalon.core.util.KeywordUtil
 
 import com.kms.katalon.core.webui.exception.WebElementNotFoundException
 
-
 class Utils {
 	/**
 	 * Tap element (field) and then set text
@@ -57,34 +56,44 @@ class Utils {
 		KeywordUtil.logInfo("Set text " + text + " to " + to.getObjectId())
 	}
 
+	@Keyword
+	def tapAndSelectListItemByLabel(TestObject to, TestObject to2, String text, int timeout, FailureHandling flowControl) {
+		MobileBuiltInKeywords.tap(to, timeout, FailureHandling.STOP_ON_FAILURE)
+		KeywordUtil.logInfo("Tap " + to.getObjectId())
+		MobileBuiltInKeywords.scrollToText(text, FailureHandling.STOP_ON_FAILURE)
+		KeywordUtil.logInfo("Scroll to label " + text)
+		MobileBuiltInKeywords.selectListItemByLabel(to2, text, timeout, FailureHandling.STOP_ON_FAILURE)
+		KeywordUtil.logInfo("Select list item with label " + text)
+	}
+
 	/**
 	 * Check if element present in timeout
 	 * @param to Katalon test object
 	 * @param timeout time to wait for element to show up
 	 * @return true if element present, otherwise false
 	 */
-//	@Keyword
-//	def isElementPresent_Mobile(TestObject to, int timeout){
-//		try {
-//			KeywordUtil.logInfo("Finding element with id:" + to.getObjectId())
-//
-//			WebElement element = MobileElementCommonHelper.findElement(to, timeout)
-//			if (element != null) {
-//				KeywordUtil.markPassed("Object " + to.getObjectId() + " is present")
-//			}
-//			return true
-//		} catch (Exception e) {
-//			KeywordUtil.markFailed("Object " + to.getObjectId() + " is not present")
-//		}
-//		return false;
-//	}
+	//	@Keyword
+	//	def isElementPresent_Mobile(TestObject to, int timeout){
+	//		try {
+	//			KeywordUtil.logInfo("Finding element with id:" + to.getObjectId())
+	//
+	//			WebElement element = MobileElementCommonHelper.findElement(to, timeout)
+	//			if (element != null) {
+	//				KeywordUtil.markPassed("Object " + to.getObjectId() + " is present")
+	//			}
+	//			return true
+	//		} catch (Exception e) {
+	//			KeywordUtil.markFailed("Object " + to.getObjectId() + " is not present")
+	//		}
+	//		return false;
+	//	}
 
 	/**
 	 * Get mobile driver for current session
 	 * @return mobile driver for current session
 	 */
-//	@Keyword
-//	def WebDriver getCurrentSessionMobileDriver() {
-//		return MobileDriverFactory.getDriver();
-//	}
+	//	@Keyword
+	//	def WebDriver getCurrentSessionMobileDriver() {
+	//		return MobileDriverFactory.getDriver();
+	//	}
 }
