@@ -12,7 +12,7 @@
          <iterationType>RANGE</iterationType>
          <value>1-1</value>
       </iterationEntity>
-      <testDataId>Data Files/AOS0001/DATA_REGISTERED_ACCOUNT</testDataId>
+      <testDataId>Data Files/DATA_REGISTERED_ACCOUNT</testDataId>
    </testDataLinks>
    <variableLinks>
       <testDataLinkId>8c2c26c3-3a12-41e9-8d1f-705842091d65</testDataLinkId>
