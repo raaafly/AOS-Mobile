@@ -17,3 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+//Mobile.startApplication('C:\\Users\\1277\\Documents\\advantage-demo-v3.2.apk', true)
+
+'TAP SIDEBAR ICON'
+Mobile.tap(findTestObject('Object Repository/LANDING_SCREEN/BUTTON_ICON_SIDEBAR'), 30, FailureHandling.STOP_ON_FAILURE)
+
+'TAP MENU LOGIN'
+Mobile.tap(findTestObject('Object Repository/LANDING_SCREEN/SIDEBAR/MENU_LOGIN'), 30, FailureHandling.STOP_ON_FAILURE)
+
+'TAP TEXT SIGN UP TODAY'
+Mobile.tap(findTestObject('Object Repository/LOGIN_SCREEN/TEXT_SIGN_UP_TODAY'), 30, FailureHandling.STOP_ON_FAILURE)
+
+
+//Mobile.closeApplication()
