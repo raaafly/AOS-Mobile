@@ -180,6 +180,25 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
+      <guid>c6083ced-504d-45ed-9999-1aaaaeee93dc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AOS0001/009 - Verify Login With Account Temporary Blocked Status</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>02b2e39b-2bdb-44ed-b783-f55e1456b2af</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>443da21a-3107-443a-9e75-c2f5a5e240a5</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>72355fe5-1181-437c-b208-285e9f7f942d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
