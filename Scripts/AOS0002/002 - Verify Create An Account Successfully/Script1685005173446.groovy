@@ -30,42 +30,46 @@ Mobile.tap(findTestObject('Object Repository/LOGIN_SCREEN/TEXT_SIGN_UP_TODAY'), 
 
 // Account Detail Form Section
 'INPUT USERNAME FIELD'
-CustomKeywords.'aosmobile.Utils.tapAndSetText'(findTestObject('Object Repository/REGISTER_SCREEN/FIELD_USERNAME'), "username", 30, FailureHandling.STOP_ON_FAILURE)
+CustomKeywords.'aosmobile.Utils.tapAndSetText'(findTestObject('Object Repository/REGISTER_SCREEN/FIELD_USERNAME'), username, 30, FailureHandling.STOP_ON_FAILURE)
 
 'INPUT EMAIL FIELD'
-CustomKeywords.'aosmobile.Utils.tapAndSetText'(findTestObject('Object Repository/REGISTER_SCREEN/FIELD_EMAIL'), "email", 30, FailureHandling.STOP_ON_FAILURE)
+CustomKeywords.'aosmobile.Utils.tapAndSetText'(findTestObject('Object Repository/REGISTER_SCREEN/FIELD_EMAIL'), email, 30, FailureHandling.STOP_ON_FAILURE)
 
 'INPUT PASSWORD FIELD'
-CustomKeywords.'aosmobile.Utils.tapAndSetText'(findTestObject('Object Repository/REGISTER_SCREEN/FIELD_PASSWORD'), "password", 30, FailureHandling.STOP_ON_FAILURE)
+CustomKeywords.'aosmobile.Utils.tapAndSetText'(findTestObject('Object Repository/REGISTER_SCREEN/FIELD_PASSWORD'), password, 30, FailureHandling.STOP_ON_FAILURE)
 
 'INPUT CONFIRM PASSWORD FIELD'
-CustomKeywords.'aosmobile.Utils.tapAndSetText'(findTestObject('Object Repository/REGISTER_SCREEN/FIELD_CONFIRM_PASSWORD'), "confirmpassword", 30, FailureHandling.STOP_ON_FAILURE)
+CustomKeywords.'aosmobile.Utils.tapAndSetText'(findTestObject('Object Repository/REGISTER_SCREEN/FIELD_CONFIRM_PASSWORD'), confirmPassword, 30, FailureHandling.STOP_ON_FAILURE)
 
 // Personal Details Form Section
 'INPUT FIRST NAME FIELD'
-CustomKeywords.'aosmobile.Utils.tapAndSetText'(findTestObject('Object Repository/REGISTER_SCREEN/FIELD_FIRST_NAME'), "firstname", 30, FailureHandling.STOP_ON_FAILURE)
+CustomKeywords.'aosmobile.Utils.tapAndSetText'(findTestObject('Object Repository/REGISTER_SCREEN/FIELD_FIRST_NAME'), firstName, 30, FailureHandling.STOP_ON_FAILURE)
 
 'INPUT LAST NAME FIELD'
-CustomKeywords.'aosmobile.Utils.tapAndSetText'(findTestObject('Object Repository/REGISTER_SCREEN/FIELD_LAST_NAME'), "lastname", 30, FailureHandling.STOP_ON_FAILURE)
+CustomKeywords.'aosmobile.Utils.tapAndSetText'(findTestObject('Object Repository/REGISTER_SCREEN/FIELD_LAST_NAME'), lastName, 30, FailureHandling.STOP_ON_FAILURE)
 
 'INPUT PHONE NUMBER FIELD'
-CustomKeywords.'aosmobile.Utils.tapAndSetText'(findTestObject('Object Repository/REGISTER_SCREEN/FIELD_PHONE_NUMBER'), "phonenumber", 30, FailureHandling.STOP_ON_FAILURE)
+CustomKeywords.'aosmobile.Utils.tapAndSetText'(findTestObject('Object Repository/REGISTER_SCREEN/FIELD_PHONE_NUMBER'), phoneNumber, 30, FailureHandling.STOP_ON_FAILURE)
 
 // Address Form Section
-'INPUT FIELD STATE'
-CustomKeywords.'aosmobile.Utils.tapAndSetText'(findTestObject('Object Repository/REGISTER_SCREEN/FIELD_STATE'), "state", 30, FailureHandling.STOP_ON_FAILURE)
+'SELECT COUNTRY FIELD'
+CustomKeywords.'aosmobile.Utils.tapAndSelectListItemByLabel'(findTestObject('Object Repository/REGISTER_SCREEN/FIELD_COUNTRY'),
+	findTestObject('Object Repository/REGISTER_SCREEN/LIST_COUNTRY'), country, 30, FailureHandling.STOP_ON_FAILURE)
 
-'INPUT FIELD ADDRESS'
-CustomKeywords.'aosmobile.Utils.tapAndSetText'(findTestObject('Object Repository/REGISTER_SCREEN/FIELD_ADDRESS'), "address", 30, FailureHandling.STOP_ON_FAILURE)
+'INPUT STATE FIELD'
+CustomKeywords.'aosmobile.Utils.tapAndSetText'(findTestObject('Object Repository/REGISTER_SCREEN/FIELD_STATE'), state, 30, FailureHandling.STOP_ON_FAILURE)
 
-'INPUT FIELD CITY'
-CustomKeywords.'aosmobile.Utils.tapAndSetText'(findTestObject('Object Repository/REGISTER_SCREEN/FIELD_CITY'), "city", 30, FailureHandling.STOP_ON_FAILURE)
+'INPUT ADDRESS FIELD'
+CustomKeywords.'aosmobile.Utils.tapAndSetText'(findTestObject('Object Repository/REGISTER_SCREEN/FIELD_ADDRESS'), address, 30, FailureHandling.STOP_ON_FAILURE)
 
-'INPUT FIELD ZIP'
-CustomKeywords.'aosmobile.Utils.tapAndSetText'(findTestObject('Object Repository/REGISTER_SCREEN/FIELD_ZIP'), "zip", 30, FailureHandling.STOP_ON_FAILURE)
+'INPUT CITY FIELD'
+CustomKeywords.'aosmobile.Utils.tapAndSetText'(findTestObject('Object Repository/REGISTER_SCREEN/FIELD_CITY'), city, 30, FailureHandling.STOP_ON_FAILURE)
+
+'INPUT ZIP FIELD'
+CustomKeywords.'aosmobile.Utils.tapAndSetText'(findTestObject('Object Repository/REGISTER_SCREEN/FIELD_ZIP'), zipCode, 30, FailureHandling.STOP_ON_FAILURE)
 
 'CHECK THE AGREEMENT'
-Mobile.checkElement(findTestObject('Object Repository/REGISTER_SCREEN/CHECKBOX_AGREEMENT'), 0, FailureHandling.STOP_ON_FAILURE)
+Mobile.checkElement(findTestObject('Object Repository/REGISTER_SCREEN/CHECKBOX_AGREEMENT'), 30, FailureHandling.STOP_ON_FAILURE)
 
 'TAP BUTTON REGISTER'
 Mobile.tap(findTestObject('Object Repository/REGISTER_SCREEN/BUTTON_REGISTER'), 30, FailureHandling.STOP_ON_FAILURE)
