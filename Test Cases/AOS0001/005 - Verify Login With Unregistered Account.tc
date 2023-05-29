@@ -12,7 +12,7 @@
          <iterationType>RANGE</iterationType>
          <value>5-5</value>
       </iterationEntity>
-      <testDataId>Data Files/AOS0001/DATA_UNREGISTERED_ACCOUNT</testDataId>
+      <testDataId>Data Files/DATA_UNREGISTERED_ACCOUNT</testDataId>
    </testDataLinks>
    <variableLinks>
       <testDataLinkId>3e39cd0f-d266-4a35-a662-9ed7b4b7eb56</testDataLinkId>
