@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS_AOS0002_REGISTER</name>
+   <name>TS_ASM0002_REGISTER</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -15,7 +15,7 @@
       <guid>0a154bda-802f-41d6-b455-2453f0f9da69</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/AOS0002/001 - Create A New Account</testCaseId>
+      <testCaseId>Test Cases/ASM0002/001 - Create A New Account</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -94,14 +94,14 @@
       <guid>66dbc8e5-ee26-43f8-bf98-e9f811706be4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/AOS0002/002 - Create A New Account Without Input Optional Fields</testCaseId>
+      <testCaseId>Test Cases/ASM0002/002 - Create A New Account Without Input Optional Fields</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>aa1afef7-11ad-4bdf-870b-8fa8081a7e51</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/AOS0002/003 - Create A New Account Without Check Offers And Promotions</testCaseId>
+      <testCaseId>Test Cases/ASM0002/003 - Create A New Account Without Check Offers And Promotions</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
