@@ -12,17 +12,10 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>a0c33610-f1dd-4e79-8146-f2e0012c78ab</testSuiteGuid>
    <testCaseLink>
-      <guid>02cb136c-4ed3-4ae3-beb1-5f1e2e8fe61e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/AOS0001/001 - Verify Login Screen Visible Username, Password Fields and Button Login</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>2b10a300-274f-4bcc-b19f-e622aba7a0df</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/AOS0001/002 - Verify Login With Registered Account</testCaseId>
+      <testCaseId>Test Cases/AOS0001/001 - Login With Registered Account</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ac53f407-61c8-44cb-86cd-20cc48a26576</id>
@@ -47,24 +40,31 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>4597f0d8-49f2-426d-93dd-837a9ca9a495</guid>
+      <guid>9eca1295-8716-4e15-94e0-3c4521df9422</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/AOS0001/003 - Verify Login With Facebook</testCaseId>
+      <testCaseId>Test Cases/AOS0001/002 - Login With Face Recognition Biometric</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>14d48792-bfb3-456c-8870-75075a7e2c0d</guid>
+      <guid>0167eef2-3b24-4586-96ba-d9efc5d02df2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/AOS0001/004 - Verify Login With Reset Password</testCaseId>
+      <testCaseId>Test Cases/AOS0001/003 - Login With Fingerprint Biometric</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4597f0d8-49f2-426d-93dd-837a9ca9a495</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AOS0001/004 - Login With Facebook Account</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>3e2294ef-4794-44ac-86b8-61c3c48ddf40</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/AOS0001/005 - Verify Login With Unregistered Account</testCaseId>
+      <testCaseId>Test Cases/AOS0001/005 - Login With Unregistered Account</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>c3d46365-bf29-43ea-8a52-6000377557aa</id>
@@ -99,7 +99,7 @@
          <masked>false</masked>
          <name>email</name>
       </iterationNameVariable>
-      <testCaseId>Test Cases/AOS0001/006 - Verify Login Fill In The Username Field With Registered Email</testCaseId>
+      <testCaseId>Test Cases/AOS0001/006 - Login With Registered Email Address</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>159cd877-68b5-4f72-b146-19728ddd9f85</id>
@@ -127,7 +127,7 @@
       <guid>e449fbec-66f0-47db-a00d-d9691b6577ff</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/AOS0001/007 - Verify Login With Invalid Password 1x</testCaseId>
+      <testCaseId>Test Cases/AOS0001/007 - Login With Invalid Password 1x</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>0b32139d-bfe7-4243-87dd-12dd1c5a713e</id>
@@ -155,7 +155,7 @@
       <guid>3318199e-ff88-4ffa-8d9a-064eb0fa1b5a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/AOS0001/008 - Verify Login With Invalid Password 4x</testCaseId>
+      <testCaseId>Test Cases/AOS0001/008 - Login With Invalid Password 4x</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>add38d93-f0c6-44ac-a825-3992d0ad21da</id>
@@ -183,7 +183,7 @@
       <guid>c6083ced-504d-45ed-9999-1aaaaeee93dc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/AOS0001/009 - Verify Login With Account Temporary Blocked Status</testCaseId>
+      <testCaseId>Test Cases/AOS0001/009 - Login With Temporarily Blocked Account Status</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -202,7 +202,7 @@
       <guid>72355fe5-1181-437c-b208-285e9f7f942d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/AOS0001/010 - Verify Login Without Fill The Password Field</testCaseId>
+      <testCaseId>Test Cases/AOS0001/010 - Login Without Input Mandatory Fields</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>1f99e0db-9a17-4353-b857-60d3b0ac2ff9</id>
@@ -224,25 +224,6 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>c7969ac2-4895-4a3d-baec-d2a5526439ea</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>0598252c-d5fb-43cf-8da2-9d38663e7b94</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/AOS0001/011 - Verify Login Without Fill The Username And Password Fields</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>ccc6869d-0647-4455-b95d-597bd3742e15</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>9a3c25d0-7cb6-42bb-90fc-896f7d291108</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
