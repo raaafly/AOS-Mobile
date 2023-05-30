@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>003 - Verify Create an Account Without Fill Personal Details and Address Form Section</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>b9c58a06-bc89-4a26-9157-4c76d6758a01</testCaseGuid>
-</TestCaseEntity>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>004 - Verify Create an Account Without Check The Offer And Promotion Checkbox</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>88148e45-10be-4f10-8033-0f73d72893c8</testCaseGuid>
-</TestCaseEntity>
