@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>006 - Login With Registered Email Address</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>20de135a-fa7a-4fb9-bfb5-6893aea91531</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>7f8614b8-ea66-4217-a347-42395e1590b2</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/DATA_REGISTERED_ACCOUNT</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>7f8614b8-ea66-4217-a347-42395e1590b2</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>EMAIL</value>
+      <variableId>3438e7c1-0208-4591-aeab-e266bae6f5ec</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>7f8614b8-ea66-4217-a347-42395e1590b2</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>PASSWORD</value>
+      <variableId>1d00bc0b-5baa-4787-ab29-6c992ff0ac16</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>VARIABLE FOR USERNAME FIELD</description>
+      <id>3438e7c1-0208-4591-aeab-e266bae6f5ec</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>VAIRABLE FOR PASSWORD FIELD</description>
+      <id>1d00bc0b-5baa-4787-ab29-6c992ff0ac16</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

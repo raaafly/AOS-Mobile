@@ -54,6 +54,7 @@ class Utils {
 		KeywordUtil.logInfo("Tap " + to.getObjectId())
 		MobileBuiltInKeywords.setText(to, text, timeout, FailureHandling.STOP_ON_FAILURE)
 		KeywordUtil.logInfo("Set text " + text + " to " + to.getObjectId())
+		MobileBuiltInKeywords.hideKeyboard()
 	}
 
 	@Keyword

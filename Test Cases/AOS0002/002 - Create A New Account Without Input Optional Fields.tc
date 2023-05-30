@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>002 - Create A New Account Without Input Optional Fields</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b9c58a06-bc89-4a26-9157-4c76d6758a01</testCaseGuid>
+</TestCaseEntity>
