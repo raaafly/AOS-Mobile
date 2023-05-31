@@ -52,9 +52,9 @@ class Utils {
 	def tapAndSetText(TestObject to, String text, int timeout, FailureHandling flowControl) {
 		MobileBuiltInKeywords.tap(to, timeout, FailureHandling.STOP_ON_FAILURE)
 		KeywordUtil.logInfo("Tap " + to.getObjectId())
+		MobileBuiltInKeywords.hideKeyboard()
 		MobileBuiltInKeywords.setText(to, text, timeout, FailureHandling.STOP_ON_FAILURE)
 		KeywordUtil.logInfo("Set text " + text + " to " + to.getObjectId())
-		MobileBuiltInKeywords.hideKeyboard()
 	}
 
 	@Keyword
@@ -65,6 +65,18 @@ class Utils {
 		KeywordUtil.logInfo("Scroll to label " + text)
 		MobileBuiltInKeywords.selectListItemByLabel(to2, text, timeout, FailureHandling.STOP_ON_FAILURE)
 		KeywordUtil.logInfo("Select list item with label " + text)
+	}
+
+	@Keyword
+	def swipeToElementByPosition(TestObject to, int timeout, FailureHandling flowControl) {
+		//		int deviceHeight = MobileBuiltInKeywords.getDeviceHeight()
+		//		int deviceWidth = MobileBuiltInKeywords.getDeviceWidth()
+		//		int startX = deviceWidth / 2
+		//		int endX = startX
+		//		int startY = deviceHeight * 0.30
+		//		MobileBuiltInKeywords.getAttribute(to, 'x', timeout, flowControl)
+		//		MobileBuiltInKeywords.getAttribute(to, 'y', timeout, flowControl)
+		//		MobileBuiltInKeywords.swipe
 	}
 
 	/**
