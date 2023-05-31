@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\1277\\Documents\\advantage-demo-v3.2.apk', true)
+Mobile.startApplication('C:\\Users\\1277\\Documents\\advantage-demo-v3.2.apk', false)
 
 'TAP SIDEBAR ICON'
 Mobile.tap(findTestObject('Object Repository/LANDING_SCREEN/BUTTON_ICON_SIDEBAR'), 30, FailureHandling.STOP_ON_FAILURE)
@@ -41,7 +41,10 @@ CustomKeywords.'aosmobile.Utils.tapAndSetText'(findTestObject('Object Repository
 'INPUT CONFIRM PASSWORD FIELD'
 CustomKeywords.'aosmobile.Utils.tapAndSetText'(findTestObject('Object Repository/REGISTER_SCREEN/FIELD_CONFIRM_PASSWORD'), confirmPassword, 30, FailureHandling.STOP_ON_FAILURE)
 
-// Personal Details ForfindTestObject('Object Repository/REGISTER_SCREEN/FIELD_FIRST_NAME')m Section
+// Trigger to scroll
+Mobile.scrollToText("CITY")
+
+// Personal Details Form Section
 'INPUT FIRST NAME FIELD'
 CustomKeywords.'aosmobile.Utils.tapAndSetText'(findTestObject('Object Repository/REGISTER_SCREEN/FIELD_FIRST_NAME'), firstName, 30, FailureHandling.STOP_ON_FAILURE)
 
@@ -75,7 +78,7 @@ Mobile.checkElement(findTestObject('Object Repository/REGISTER_SCREEN/CHECKBOX_A
 Mobile.tap(findTestObject('Object Repository/REGISTER_SCREEN/BUTTON_REGISTER'), 30, FailureHandling.STOP_ON_FAILURE)
 
 'ACTUAL RESULT'
-Mobile.tap(findTestObject('Object Repository/LANDING_SCREEN/BUTTON_ICON_SIDEBAR'), 30, FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Object Repository/LANDING_SCREEN/BUTTON_ICON_SIDEBAR'), 60, FailureHandling.STOP_ON_FAILURE)
 Mobile.verifyElementVisible(findTestObject('Object Repository/LANDING_SCREEN/SIDEBAR/TEXT_USERNAME_LOGGED_IN', [('isUsername'): username]), 30, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.closeApplication()
